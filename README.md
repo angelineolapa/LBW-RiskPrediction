@@ -10,9 +10,7 @@ can lead to LBW and also predict risk during the course of a pregnancy.
 
 ## Dataset
 The dataset selected for this project is the official record of all live births in Colombian territory during 2020. It was compiled by the Colombian National Department of Statistics DANE and available for download at: https://microdatos.dane.gov.co//catalog/732/get_microdata. All data is
-extracted from the Certificate of Live Birth for the Civil Registry (*Certificado de Nacido Vivo Antecedente para el Registro Civil*) and encoded following
-the instructions attached to the form available at: https://microdatos.dane.gov.co/catalog/732/related_materials.
-![image](https://user-images.githubusercontent.com/89426444/200953191-26f470e2-4d70-4561-ba60-17f1b18254b9.png)
+extracted from the Certificate of Live Birth for the Civil Registry (*Certificado de Nacido Vivo Antecedente para el Registro Civil*) and encoded following the instructions attached to the form available at: https://microdatos.dane.gov.co/catalog/732/related_materials.
 The original dataset contained 629402 records with data related to the birth itself - city, province, type of birth, person who delivered baby, etc - as well as of the new born - sex, gestion period, etc. and his parents - age, education levels, place of residence, marital status. 
 As sugested in literature reviewed, the dataset was filtered to exclude any records with missing information. Multiple pregnancies were also excluded. After applying these criteria for inclusion - complete information and single pregnancy - 547147 records remained.
 
@@ -24,6 +22,7 @@ Different models were trained and tested to select the best performing one for t
 
 ## Deployment
 An plotly.Dash app was created to serve the model. The app provides a user form that upon submission indicates a risk of LBW during a pregnancy. A pipenv environment within a docker app where created for deployment. After testing locally, the app was deployed to Heroku. The app is available at: lbw-risk-predictor.herokuapp.com (unfotunately it takes some time to load!).
+![image](https://user-images.githubusercontent.com/89426444/200990897-37011c51-5e56-47d6-8c89-906db2f8ba85.png)
 
 ## Instructions for running locally
 This repository can be cloned to run the app locally after building the docker image and running the container, which automatically triggers the app in port 0.0.0.9696. 
