@@ -12,7 +12,7 @@ can lead to LBW and also predict risk during the course of a pregnancy.
 
 ## Dataset
 ![image](https://user-images.githubusercontent.com/89426444/200992845-87e45638-e065-4d78-affb-0e079cbbbabc.png)
-The dataset selected for this project is the official record of all live births in Colombian territory during 2020. It was compiled by the Colombian National Department of Statistics DANE and available for download at: https://microdatos.dane.gov.co//catalog/732/get_microdata. All data is
+The dataset selected for this project is the official record of all live births in Colombian territory during 2020. It was compiled by the Colombian National Department of Statistics DANE and available for download at: https://microdatos.dane.gov.co//catalog/732/get_microdata. Train.py and notebook.ipyn use the dataset on dta formta (nac2020.dta). All data is
 extracted from the Certificate of Live Birth for the Civil Registry (*Certificado de Nacido Vivo Antecedente para el Registro Civil*) and encoded following the instructions attached to the form available at: https://microdatos.dane.gov.co/catalog/732/related_materials.
 The original dataset contained 629402 records with data related to the birth itself - city, province, type of birth, person who delivered baby, etc - as well as of the new born - sex, gestion period, etc. and his parents - age, education levels, place of residence, marital status. 
 As sugested in literature reviewed, the dataset was filtered to exclude any records with missing information. Multiple pregnancies were also excluded. After applying these criteria for inclusion - complete information and single pregnancy - 547147 records remained.
