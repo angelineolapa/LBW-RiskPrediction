@@ -8,17 +8,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Check-out your repository.
       - name: Checkout
         uses: actions/checkout@v3
-
       - name: Deploy Docker Image to Heroku App
-        uses: jctaveras/heroku-deploy@v3.1.0
+        uses: mtsmachado8/heroku-deploy@v2.0.3
         with:
           email: ${{ secrets.HEROKU_EMAIL }}
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
           heroku_app_name: ${{ secrets.HEROKU_APP_NAME }}
-          dockerfile_directory: "./"
+          dockerfile_directory: "."
           dockerfile_name: Dockerfile
           docker_options: ""
           process_type: web
