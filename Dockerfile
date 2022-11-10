@@ -10,4 +10,4 @@ RUN pipenv install --system --deploy
 
 EXPOSE 9696
 
-ENTRYPOINT ["gunicorn", "--bind=0.0.0.0:9696", "app:server"]
+CMD gunicorn app:server
