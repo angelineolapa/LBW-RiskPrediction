@@ -1,14 +1,11 @@
 # ML Zoomcamp Mid-Term Project: LBW-RiskPrediction
 
-**https://lbw-risk-predictor.herokuapp.com/**
+Random Forest Model to predit risk of low weight at birth. App to serve model: **https://lbw-risk-predictor.herokuapp.com/**
 
 ## Project Description
 The objective of this project is to develop a ML model to predict the risk of low weight at birth during the course of a pregnancy. 
 Low birth weight (LBW) is a term used to describe newborn who weigh less than 2500g (5 pounds, 8 ounces). LBW can lead to serious health problems for 
-babies and in developing countries it remain one of the leading indicators of infant mortality. Studies have identified several factors associated to LBW
-including socio-economic context of parents, health history of the mother and medical care during preganancy. In Colombia, there is still an incidence of
-over 10% of LBW in infants born each year. Therefore, this project aims to develop a tool that can serve to raise awareness about socioeconomic factors that
-can lead to LBW and also predict risk during the course of a pregnancy.
+babies and in developing countries it remain one of the leading indicators of infant mortality. Newborns who weigh less than 2500g have higher risk of malnutrition in the first year of life and are more vulnerable to infections. Studies have identified several factors associated to LBW including socio-economic context of parents, health history of the mother and medical care during preganancy. In Colombia, there is still an incidence of over 10% of LBW in infants born each year. Therefore, this project aims to develop a tool that can serve to raise awareness about socioeconomic factors that can lead to LBW and also predict risk during the course of a pregnancy.
 
 ## Dataset
 ![image](https://user-images.githubusercontent.com/89426444/200992845-87e45638-e065-4d78-affb-0e079cbbbabc.png)
