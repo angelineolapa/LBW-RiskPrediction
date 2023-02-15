@@ -27,6 +27,6 @@ An plotly.Dash app was created to serve the model. The app provides a user form 
 ## Instructions for running locally
 The app can be replicated locally following these steps: 
 1. Clone the repository
-2. Open the repository and in the main folder build the docker image: 
-3. Run the container from the image built in the previous step. 
+2. Open the repository and in the main folder build the docker image: `docker build -t lbw-predictor .`
+3. Run the container from the image built in the previous step: `docker run -it -p 9696:9696 lbw-predictor:latest`. 
 This automatically triggers the app in port 0.0.0.9696. 
