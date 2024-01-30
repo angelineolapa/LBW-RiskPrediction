@@ -1,13 +1,13 @@
 # ML Zoomcamp Mid-Term Project: LBW-RiskPrediction
 
-Random Forest Model to predit risk of low weight at birth. 
+Random Forest Model to predict risk of low weight at birth. 
 
 ## 1. Project Overview
 - Created a tool to help predict the risk of low weight at birth during the course of a pregnancy. Early detection of this risk, which is still one of the leading indicators of infant mortality in the developing world, could allow to take timely action to prevent complications for the newborn.
 - Cleaned and analized official records of all live births in Colombian territory during 2020.
 - Optimized logistic regression, random forest and xgboost models to reach the best model.
 - Built a webapp using plotly.Dash to serve the model.
-- 
+  
 ## 2. Project Description
 The objective of this project is to develop a ML model to predict the risk of low weight at birth during the course of a pregnancy. Low birth weight (LBW) is a term used to describe newborns who weigh less than 2500g (5 pounds, 8 ounces). LBW can lead to serious health problems for babies and in developing countries it remains one of the leading indicators of infant mortality. Newborns who weigh less than 2500g have higher risk of malnutrition in the first year of life and are more vulnerable to infections. Studies have identified several factors associated to LBW including socio-economic context of parents, health history of the mother and medical care during pregnancy. In Colombia, there is still an incidence of over 10% of LBW in infants born each year. Therefore, this project aims to develop a tool that can serve to raise awareness about socioeconomic factors that can lead to LBW and also predict risk during the course of a pregnancy.
 
